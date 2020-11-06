@@ -65,7 +65,12 @@ public class FbSolMatrixOfOnesZeros {
 
   public static void main(String[] args) {
     loadM2();
-    System.out.println(M2);
+    for (int element: M2) {
+      System.out.print(element + " ");
+    }
+    System.out.println();
+    System.out.println("Compared solutions [brute-force]=[optimized]");
+    System.out.println("--------------------------------------------");
     printSums(0, 0, 1, 3);
     printSums(0, 0, 3, 3);
     printSums(1, 1, 2, 2);
