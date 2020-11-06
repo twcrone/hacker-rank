@@ -1,1 +1,1 @@
-# hackerrank-scala
+# hackerrank
